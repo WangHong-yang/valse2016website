@@ -1,0 +1,207 @@
+/* Some media queries */
+@media screen and (min-width: 1901px) {
+	.poster {
+		height: 430px!important;
+	}
+	.secwraper {
+		padding: 1em 17em !important;
+		font-size: 1.2em;
+	}
+	.poster .descrip .des_up {
+		padding-top: 140px!important;
+	}
+}
+@media screen and (min-width: 1650px) and (max-width: 1900px) {
+	.poster {
+		height: 360px!important;
+	}
+	.secwraper {
+		padding: 1em 12em !important;
+		font-size: 1.2em;
+	}
+	.poster .descrip .des_up {
+		padding-top: 100px!important;
+	}
+}
+@media screen and (max-width: 65.3125em) {
+    .sec .secwraper {
+        padding: 1em 3em !important;
+    }
+}
+
+@media screen and (max-width: 33.75em) {
+	.sec .secwraper {
+		padding: 1em 2em !important;
+	}
+
+	.panel_left, .panel_right{
+		width: 100% !important;
+		float: none !important;
+	}
+}
+
+@media screen and (max-width: 24em) {
+
+}
+
+body {
+  font-family: 'Microsoft Yahei', '微软雅黑';
+  font-weight: 100;
+}
+a {
+	text-decoration: none;
+}
+
+.clearfix:before {
+	content: '';
+    display: table;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.poster {
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
+}
+
+.poster .underbg {
+	width: 100%;
+	height: 500px;
+	background-size: cover;
+}
+
+.poster .descrip {
+	font-family: "Helvetica", "Microsoft Yahei", "Raleway";
+	width: 100%;
+	height: 300px;
+	margin-top: -500px;
+	text-align: center;
+}
+
+.poster .descrip h2 {
+	margin: 0;
+	font-size: 3em;
+	color: white;
+	opacity: 0.9
+}
+
+.poster .descrip .des_up {
+	padding-top: 55px;
+}
+
+.poster .descrip .des_down {
+	padding-top: 45px;
+}
+
+.poster .descrip .des_up1 {
+	font-family: 'Garamond', 'OpenSansLight', serif;
+	font-weight: 100;
+	color: rgb(228,182,49);
+	font-size: 2.3em;
+}
+
+.poster .descrip .des_up2 {
+	font-family: 'Helvetica', '微软雅黑';
+	color: white;
+	opacity: 0.7;
+	font-size: 2em;
+}
+
+.poster .descrip p {
+	font-family: 'Helvetica', '微软雅黑';
+	color: rgb(42,44,60);
+	text-shadow: 0px 0px 3px white;
+	font-size: 2em;
+}
+
+.sec {
+	width: 100%;
+	background-color: white;
+}
+
+.sec .secwraper {
+	padding: 3em 8em 0 8em;
+}
+
+.sec h2 {
+    padding-left: 20px;
+    padding-right: 20px;
+    color: rgb(42,44,60);
+    opacity: 0.1;
+
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.secMoved {
+    padding-left: 0!important;
+    padding-right: 40px!important;
+    color: rgb(42,44,60)!important;
+    opacity: 1!important;
+
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.sec a {
+	color: rgb(228,182,49);
+	margin-right: 15px;
+	border-bottom: 2px dashed transparent;
+	text-decoration:none;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+
+}
+
+.sec a:hover {
+	border-bottom: 2px dashed rgb(228,182,49);
+	color: rgb(42,44,60);
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.panel_title {
+	/*width: 5em;
+    padding: 10px;
+    margin: 0;
+    color: rgb(228,182,49);
+    background-color: rgb(42,44,60);
+    border-bottom: 3px dashed rgb(228,182,49);
+    border-radius: 8px;*/
+    padding-top: 0;
+    color: rgb(42,44,60);
+    border-bottom: 2px dashed rgb(228,182,49);
+}
+
+.panel_left {
+
+
+}
+.panel_right {
+
+}
+.panel_all {
+    width: 100%;
+}
+
+.panel_left, .panel_right  {
+
+	width: 50%;
+	float: left;
+}
+
+.panel_list {
+	line-height: 3em;
+}
+
+table tbody tr:hover td,
+table tbody tr:hover th {
+    background-color: #f5f5f5;
+}
